@@ -1,0 +1,157 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    background-color: #5b108d;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.company-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links a {
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #a514df;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    
+}
+
+.nav-links a:last-child {
+    margin-right: 0;
+}
+
+.nav-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Search Section with Background Image */
+.search-section {
+    height: 50vh;
+    width: 100%;
+    background-image: url('https://images5.alphacoders.com/132/1328245.jpeg'); /* Add your image URL here */
+    background-size: cover;
+    background-position: center left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-section:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.search-container {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px); /* Blurry effect */
+    border-radius: 20px;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect on the Search Container */
+.search-container:hover {
+    transform: scale(1.05); /* Slight scaling */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Adding a shadow */
+}
+
+.search-bar {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-bar::placeholder {
+    color: #555;
+}
+
+/* Card Section Styling */
+.card-section {
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Card Container */
+.card-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.card-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
+
+/* Individual Card Styling */
+.card {
+    min-width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect on Cards */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Image Styling */
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* About Section Styling */
+.about-section {
+    background-color: #0e041b;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #ffffff;
+}
